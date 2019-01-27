@@ -57,7 +57,7 @@ class DBWNode(object):
         self.controller = Controller(vehicle_mass = vehicle_mass,
                                      fuel_capacity = fuel_capacity,
                                      brake_deadband = brake_deadband,
-                                     decal_limit = decal_limit,
+                                     decel_limit = decel_limit,
                                      accel_limit = accel_limit,
                                      wheel_radius = wheel_radius,
                                      wheel_base = wheel_base,
