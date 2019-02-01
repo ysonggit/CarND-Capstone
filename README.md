@@ -6,6 +6,8 @@ Please use **one** of the two installation options, either native **or** docker 
 
 ### Native Installation
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/061ff9b22ab547e2bb50351e2e8a9c55)](https://app.codacy.com/app/ysonggit/CarND-Capstone?utm_source=github.com&utm_medium=referral&utm_content=ysonggit/CarND-Capstone&utm_campaign=Badge_Grade_Dashboard)
+
 * Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
 * If using a Virtual Machine to install Ubuntu, use the following configuration as minimum:
   * 2 CPU
