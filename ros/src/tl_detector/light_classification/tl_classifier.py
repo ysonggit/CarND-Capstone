@@ -39,8 +39,8 @@ class TLClassifier(object):
 
         """
         #TODO implement light color prediction
-        input_height=244
-        input_width=244
+        input_height=224
+        input_width=224
         input_mean=0
         input_std=255
 
@@ -55,7 +55,7 @@ class TLClassifier(object):
             tensor = self.sess.run(normalized)
             results = self.sess.run(output_operation.outputs[0], {input_operation.outputs[0]: tensor})
             end=time.time()
-            #rospy.logwarn('\nEvaluation time (1-image): {:.3f}s\n'.format(end-start))
+            rospy.logwarn('\nEvaluation time (1-image): {:.3f}s\n'.format(end-start))
 
         results = np.squeeze(results)
         top_k = results.argsort()[-5:][::-1]
